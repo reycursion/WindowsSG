@@ -56,7 +56,7 @@ Note: CLI and POSH are not case-sensitive
 **Basic Navigation & File Management:**
 
 | Command                                   | Description                                                        |
-|------------------------------------------:|--------------------------------------------------------------------|
+|-------------------------------------------------------------------:|--------------------------------------------------------------------|
 |`whoami`                                   | Displays the current logged-in user.                               |
 |`dir`	                                    | Lists all files and folders in the current directory.              |
 |`cd Documents`	                            | Changes the current directory to “Documents”.  Note: You must be in Documents parent folder in order to cd into Documents or use the absolute path.      |
