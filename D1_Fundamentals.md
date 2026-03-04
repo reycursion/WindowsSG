@@ -29,8 +29,9 @@ net commands
 |Add domain local group:                  | net localgroup groupname /add /domain                        |
 |Add domain global group:                  |  net group groupname /add /domain                              |
 
-> Note: Domains Local Groups: These groups can contain members from any trusted domain, but are granted permissions only to resources in their own domain
-      Domain Global Groups: These groups contain members only from their own domain but can be granted permissions to resources in any trusting domain.
+> Note:
+> - Domains Local Groups: These groups can contain members from any trusted domain, but are granted permissions only to resources in their own domain
+  - Domain Global Groups: These groups contain members only from their own domain but can be granted permissions to resources in any trusting domain.
 
 ### 3. PowerShell:
 
