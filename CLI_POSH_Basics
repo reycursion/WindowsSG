@@ -1,5 +1,11 @@
 To familiarize/help with some CLI and POSH (PowerShell) navigation techniques we have listed some common commands and navigating tools here.
 
+Ways to open the Command Line in Windows:
+
+Start menu’s Run dialog: Open the Run window (by pressing Win + R), type cmd, and press Enter. 
+
+Another way is by typing “Command Prompt” or "cmd" into the Windows search bar, where it will appear as an option. 
+
 ##1. Help Commands
 Help Commands are very "help"ful (lol)
 In all seriousness, the help commands are some of the most powerful tools to have in your toolbox!
@@ -32,11 +38,19 @@ When typing a command and adding an option to it you can press ctrl + spacebar t
 Example: (type) get-help get-service - (then press ctrl + spacebar)
   If you are using PowerShell ISE these will populate for you in a dropdown menu
 
-Tab completion:
+##3. Tab completion:
   When typing commands you are able to type the first portion of the command and press the "tab" key to finish out the rest of the command
 Example: (start typing) get-ser (then press tab) you'll see POSH finishes get-service for you
-This helps with faster scripting and also with spelling errors. Sometimes we type fast and misspell things that computer does not recognize. To save yourself trouble just tab complete.
+This helps with faster scripting and also with spelling errors. Sometimes we type fast and misspell things that the computer does not recognize. To save yourself trouble just tab complete.
+Note: CLI and POSH are not case-sensitive 
 
-Comments
+
+Basic CLI Commands:
+
+
+
+
+
+Basic PowerShell Commands:
 
 
