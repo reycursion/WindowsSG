@@ -35,27 +35,26 @@ net commands
 
 ### 3. PowerShell:
 
-Create a local User:
-New-LocalUser –Name "username" -Password (ConvertTo-SecureString "Password12345!" -AsPlainText -Force)
-
-Create a local group:
-New-LocalGroup –Name "groupname"
+|Task                  |          Example                  |
+|------------------------------------------:|-----------------------------------------------------------------------------|
+|Create a local User:                       | New-LocalUser –Name "username" -Password (ConvertTo-SecureString "Password12345!" -AsPlainText -Force) |
+|Create a local group:  | New-LocalGroup –Name "groupname"          |
 
 ### 4. Accessing Logs:
 
 Open the command line and type powershell, or navigate to the PowerShell interface by typing powershell in the search bar.
 
 To view all logs, type:
-Get-EventLog *
+`Get-EventLog *`
 (The asterisk is a wildcard and shows all logs.)
 
 To view specific logs, type:
 Get-EventLog <log name>
-Example: Get-EventLog Application
+Example: `Get-EventLog Application`
 
 To clear a specific log, type:
 Clear-EventLog <log name>
-Example: Clear-EventLog Application
+Example: `Clear-EventLog Application`
 
 Note: If you clear your logs and then use the get-eventlog cmdlet to grab those logs, you should get a red error message that states there are no logs - which is correct because you just deleted them.
 Event Viewer is the GUI used to view these logs. 
@@ -65,30 +64,30 @@ If you open Event Viewer and navigate to the Windows Logs tab you should see the
 
 Common schtasks Commands:
 
-schtasks /?
+`schtasks /?`
 Displays scheduled tasks and command usage.
 
-schtasks /create
+`schtasks /create`
 Creates a new task.
 Example:
-schtasks /create /sc once /tn command /tr cmd.exe /st 08:00
+`schtasks /create /sc once /tn command /tr cmd.exe /st 08:00`
 (Schedules a one-time task to run cmd.exe at 08:00)
 
-schtasks /delete
+`schtasks /delete`
 Deletes a task by name.
 Example:
-schtasks /delete /tn command
+`schtasks /delete /tn command`
 
-schtasks /change
+`schtasks /change`
 Changes the task that is run (does not change the task name).
 Example:
-schtasks /change /tn Notepad /tr C:\Windows\System32\calc.exe
+`schtasks /change /tn Notepad /tr C:\Windows\System32\calc.exe`
 (Changes the scheduled task to run calc.exe instead of Notepad)
 
-schtasks /query
+`schtasks /query`
 Displays current scheduled tasks.
 Example:
-schtasks /query /tn Notepad /v /fo list
+`schtasks /query /tn Notepad /v /fo list`
 (Displays detailed information about the Notepad task)
 
 Task Scheduler is the GUI used to view these tasks
