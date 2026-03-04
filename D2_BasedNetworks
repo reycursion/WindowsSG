@@ -1,4 +1,5 @@
-table of contents:
+##Table of Contents 
+
 1. Security Identifier(SID)
 
 SIDs are structured in a specific format that conveys meaningful information. A typical SID might look like this: S-1-5-21-3623811015-3361044348-30300820-1013. Each segment of this string plays a vital role in identifying the account and its attributes:
