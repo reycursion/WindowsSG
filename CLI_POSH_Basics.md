@@ -1,6 +1,6 @@
 ## To familiarize/help with some CLI and POSH (PowerShell) navigation techniques we have listed some common commands and navigating tools here.
 
-Ways to open the Command Line in Windows:
+### Ways to open the Command Line in Windows:
 
 Start menu’s Run dialog: Open the Run window **(by pressing Win + R)**, type **cmd**, and press **Enter**. 
 
@@ -81,16 +81,17 @@ Note: CLI and POSH are not case-sensitive
 
 ## Basic PowerShell Commands:
 
-`Get-Help`                                 Displays help information about PowerShell cmdlets.
-`Update-Help`                                To update your Help Files
-      Note: Update-Help -force will force the update
-`Get-Command`                               Lists all cmdlets, functions, workflows, aliases installed on your system.
-`Get-ChildItem`                              Displays the files and directories in the PowerShell console.
-`Get-Process`	                                Retrieves the processes running on a local or remote computer.
-`Get-Service`                                Gets the status of services on a local or remote machine.
-`New-Item`                                 Creates a new item, such as a file or directory.
-`Copy-Item`                                  Copies an item from one location to another.
-`Remove-Item`                              Deletes files or directories.
+| Command                                   | Description                                                        |
+|------------------------------------------:|--------------------------------------------------------------------|
+|`Get-Help`                                 | Displays help information about PowerShell cmdlets.                  |
+|`Update-Help`                              | To update your Help File  Note: Update-Help -force will force the update      |
+|`Get-Command`                              | Lists all cmdlets, functions, workflows, aliases installed on your system.    |
+|`Get-ChildItem`                            | Displays the files and directories in the PowerShell console.            |
+|`Get-Process`	                            | Retrieves the processes running on a local or remote computer.            |
+|`Get-Service`                              | Gets the status of services on a local or remote machine.              |
+|`New-Item`                                 | Creates a new item, such as a file or directory.                      |
+|`Copy-Item`                                | Copies an item from one location to another.                          |
+|`Remove-Item`                              | Deletes files or directories.                                    |
 
 It is possible to switch to PowerShell from you CLI by simply typing the word "powershell" in your CLI. If you type "cmd" it will take you another logical layer deeper into another CLI shell. 
 Note: It is easy to get many layers deep if you continue to do this. To go back a layer to your previous shell, type the word "exit". If you type exit from your original shell you will close out your CLI. So be careful not to type exit too many times.
