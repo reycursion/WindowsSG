@@ -20,6 +20,8 @@ Effective user and group management is essential for ensuring secure access to r
 
 net commands
 
+|Task                  |          Example                  |
+|------------------------------------------:|-----------------------------------------------------------------------------|
 net.exe is a suite of commands that can be used in the CLI to manage users and groups. Note: These commands will also work in PowerShell although they are not inate POSH cmdlets.
 
 Add a user:
