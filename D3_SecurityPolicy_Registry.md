@@ -2,6 +2,7 @@
 1. reg commands
 2. PowerShell cmdlets for registry
 3. navigate regedit.exe
+4. navigate gpedit.msc
 
 ### 1. reg commands
 
@@ -34,4 +35,10 @@ Common Cmdlets:
 
 This graphical interface is built into Windows, providing a user-friendly way to navigate the complex structure of the Windows Registry.
 
+***insert a practical exercise here***
 
+### 4. Navigate Group Policy Editor (gpedit.msc)
+
+ System administrators can enforce settings across multiple machines within a network, ensuring compliance with organizational policies.
+
+ ***insert a practical exercise here***
