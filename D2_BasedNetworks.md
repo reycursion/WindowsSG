@@ -8,7 +8,7 @@ SIDs are structured in a specific format that conveys meaningful information. A 
 * 5: The authority identifier, which generally corresponds to the security authority that created the SID. The most common authority is 5, representing the NT Authority, but other values can indicate different authorities.
 * Identifier Values:
   -   Local or Domain Identifier: This segment specifies the security authority that issued the SID, indicating whether it belongs to a local or domain account.
-  -   Relative Identifier (RID): The RID identifies the specific type of account, whether it is a user account, group account, or other defined types.
+* Relative Identifier (RID): The RID identifies the specific type of account, whether it is a user account, group account, or other defined types.
 
 Ways to access SIDs
 
