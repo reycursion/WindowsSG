@@ -3,9 +3,9 @@
 2. PowerShell cmdlets for registry
 3. navigate regedit.exe
 
-***Add a line about reg commands here***
-
 ### 1. reg commands
+
+***Add a line about reg commands here***
 
 Common Commands:
 
@@ -18,6 +18,8 @@ Common Commands:
 
 
 ### 2. PowerShell cmdlets for registry
+
+***Add a line about posh reg commands here***
 
 Common Cmdlets:
 
