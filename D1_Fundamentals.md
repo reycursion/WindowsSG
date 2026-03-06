@@ -22,7 +22,7 @@ net.exe is a suite of commands that can be used in the CLI to manage users and g
 net commands
 
 |Task                  |          Example                  |
-|------------------------------------------:|-----------------------------------------------:|------------------------------|
+|------------------------------------------:|-----------------------------------------------|
 |Add a user                                 | `net user username password /add`                                  |
 |Add domain user                          | `net user username password /add /domain`                              |
 |Add a local group:                         | `net localgroup groupname /add`                            |
