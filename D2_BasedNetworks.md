@@ -24,7 +24,7 @@ CLI/PowerShell:
 > Note: The WMI command-line (WMIC) utility provides a command-line interface for Windows Management Instrumentation (WMI). 
 WMIC is deprecated as of Windows 10, version 21H1; and as of the 21H1 semi-annual channel release of Windows Server. This utility is superseded by Windows PowerShell for WMI.
 
-***The Get-CimInstance cmdlet gets the CIM instances of a class from a CIM server. You can specify either the class name or a query for this cmdlet. 
-This example retrieves the CIM instances of a class named Win32_Process. You will learn more about these in your PowerShell module.***
+> The Get-CimInstance cmdlet gets the CIM instances of a class from a CIM server. You can specify either the class name or a query for this cmdlet. 
+This example retrieves the CIM instances of a class named Win32_Process. You will learn more about these in your PowerShell module.
 
-SIDs can also be viewed in the Registry and the Server Manager which we will cover in future lessons.
+***SIDs can also be viewed in the Registry and the Server Manager which we will cover in future lessons.***
