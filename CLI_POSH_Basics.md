@@ -96,7 +96,9 @@ This helps with faster scripting and also with spelling errors. Sometimes we typ
 |`Remove-Item`                              | Deletes files or directories.                                    |
 
 It is possible to switch to PowerShell from you CLI by simply typing the word "powershell" in your CLI. If you type "cmd" it will take you another logical layer deeper into another CLI shell. 
-Note: It is easy to get many layers deep if you continue to do this. To go back a layer to your previous shell, type the word "exit". If you type exit from your original shell you will close out your CLI. So be careful not to type exit too many times.
+
+>Note: It is easy to get many layers deep if you continue to do this. To go back a layer to your previous shell, type the word "exit". If you type exit from your original shell you will close out your CLI. So be careful not to type exit too many times.
+
 Certain variables, functions, etc. that you create may only exist in that session. If you close they will delete from memory unless saved in your profile file, which will be covered in your PowerShell module.
 
 >**Important Note: Read your error messages!!** Often times people see a red error message and wonder what they did wrong or just give up. Read the error message because often times it tells you exactly what is wrong and maybe even how to fix the issue.
