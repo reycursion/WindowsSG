@@ -58,13 +58,13 @@ If you open Event Viewer and navigate to the Windows Logs tab you should see the
 
 Common schtasks Commands:
 
-|Task                  |        Description                 |  Example   |
+|Task                  |        Description                 |        Example             |
 |:------------------------------------------|:--------------------------------:|---------------------------------------------:|
 |`schtasks /?`                  |  Displays scheduled tasks and command usage.                        |
 |`schtasks /create`              |   Creates a new task.                       | Example:      `schtasks /create /sc once /tn command /tr cmd.exe /st 08:00` (Schedules a one-time task to run cmd.exe at 08:00)     |
 |`schtasks /delete`            |  Deletes a task by name.                        |  Example:     `schtasks /delete /tn command`    |
 |`schtasks /change`          |  Changes the task that is run (does not change the task name).   |  Example:  `schtasks /change /tn Notepad /tr C:\Windows\System32\calc.exe` (Changes the scheduled task to run calc.exe instead of Notepad)  |
-|`schtasks /query`   |    Displays current scheduled tasks.   |  Example:  |`schtasks /query /tn Notepad /v /fo list`  (Displays detailed information about the Notepad task)    |
+|`schtasks /query`   |    Displays current scheduled tasks.   |  Example:  `schtasks /query /tn Notepad /v /fo list`  (Displays detailed information about the Notepad task)    |
 
 Task Scheduler is the GUI used to view these tasks
 The current tasks are shown in the middle pane. To the right you can see options to create, run, disable etc. other tasks. You are free to explore this GUI to see how it works compared to CLI/POSH.
