@@ -66,7 +66,7 @@ Common schtasks Commands:
 |`schtasks /change`          |  Changes the task that is run (does not change the task name).   |  Example:  `schtasks /change /tn Notepad /tr C:\Windows\System32\calc.exe` (Changes the scheduled task to run calc.exe instead of Notepad)  |
 |`schtasks /query`   |    Displays current scheduled tasks.   |  Example:  `schtasks /query /tn Notepad /v /fo list`  (Displays detailed information about the Notepad task)    |
 
-Task Scheduler is the GUI used to view these tasks
+> Task Scheduler is the GUI used to view these tasks
 The current tasks are shown in the middle pane. To the right you can see options to create, run, disable etc. other tasks. You are free to explore this GUI to see how it works compared to CLI/POSH.
 
 
