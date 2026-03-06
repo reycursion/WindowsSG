@@ -14,16 +14,16 @@ Day 0
 
 
 Lesson 1 Fundamentals
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. What does GUI actually stand for? Graphical User Interface
+2. What is the missing part of this command to create a new local user? net Paul Password1! /add
+3. What option needs to be added to a command to make a user or group part of the domain? /domain
+4. What is the cmdlet used to create a new local user in POSH? new-localuser
+5. What is a way of viewing all events that happen on a system? Logs
+6. How can I view my logs using PowerShell? get-eventlog get-eventlog*
+7. What is the queue for a scheduled task to run? trigger
+8. What option is used to tell a scheduled task how often to run? /sc
+9. What happens if I clear my eventlogs and then run the command get-eventlog *? error, error message, an error
+10. True or False. net commands can be used in CLI and POSH? True
 
 
 Lesson 2 Based Networks
