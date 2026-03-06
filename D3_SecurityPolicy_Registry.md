@@ -3,9 +3,13 @@
 2. PowerShell cmdlets for registry
 3. navigate regedit.exe
 
+***Add a line about reg commands here***
+
 ### 1. reg commands
 
 Common Commands:
+
+
 
 reg query:
 Retrieve registry data from specified keys or values.
