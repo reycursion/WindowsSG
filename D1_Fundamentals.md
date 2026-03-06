@@ -50,7 +50,7 @@ Open the command line and type powershell, or navigate to the PowerShell interfa
 |To view specific logs, type:             | Get-EventLog <log name>  Example: `Get-EventLog Application`  |
 |To clear a specific log, type:     |       Clear-EventLog <log name>    Example: `Clear-EventLog Application`  |
 
-Note: If you clear your logs and then use the get-eventlog cmdlet to grab those logs, you should get a red error message that states there are no logs - which is correct because you just deleted them.
+> Note: If you clear your logs and then use the get-eventlog cmdlet to grab those logs, you should get a red error message that states there are no logs - which is correct because you just deleted them.
 Event Viewer is the GUI used to view these logs. 
 If you open Event Viewer and navigate to the Windows Logs tab you should see the same logs. You are free to explore this GUI to see how it works compared to CLI/POSH.
 
