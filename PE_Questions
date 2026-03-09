@@ -35,21 +35,21 @@ Lesson 1 Fundamentals
 15. What is the cmdlet to create a new local group? new-localgroup
  
 Lesson 2 Based Networks
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+1. What does SID actually stand for? Security Identifier
+2. What is the RID for Administrators? 500
+3. What does S-1-5 represent? NT_AUTHORITY 
+4. What is the service account for the Key Distribution Center (KDC)? krbtgt
+5. What does wmic stand for? Windows Management Instrumentation Command-Line Utility
+6. Which PowerShell cmdlet is used to show SIDs? get-ciminstance
+7. What GUI on my local system can I use to see SIDs? Registry Editor regedit regedit.exe
+8. What part of the following command is missing? wmic useraccount get name? , sid ,sid
+9. What is the RID for guest accounts? 501
+10. What account is a service account used by the operating system? local system
+11. Which service account is used specifically for services that require network access? network service
+12. Which of the following is correct syntax to see your SID? **whoami /user**, whoami -user, whoami get name, sid, whoami /sid
+13. What class is the get-ciminstance pulling from to get SIDs? Win32_Process
+14. What does the 1 represent in S-1-5? Revision level
+15. What do all SIDs start with? S
 
 Lesson 3 Security Policy & Registry
 1.
