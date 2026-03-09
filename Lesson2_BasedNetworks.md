@@ -21,7 +21,7 @@ SIDs are structured in a specific format that conveys meaningful information. A 
 |LOCAL_SYSTEM S-1-5-18 |  An account that is used by the operating system.  |
 |LOCAL_SERVICE S-1-5-19  |  A local service account, which has limited privileges for running local services without access to network resources. |
 |NETWORK_SERVICE S-1-5-20   |  A network service account, which has more privileges than the Local Service account, specifically designed for services requiring network access. | 
-|ADMINISTRATOR   S-1-5-21-<machine>-500 | A user account for the system administrator. By default, it is the only user account that is given full control over the system.   |
+|ADMINISTRATOR   S-1-5-21-\<machine\>-500 | A user account for the system administrator. By default, it is the only user account that is given full control over the system.   |
 |GUEST  S-1-5-21-\<machine\>-501   |  A user account for people who do not have individual accounts. This user account does not require a password. By default, the Guest account is disabled.  |
 |KRBTGT S-1-5-21-\<domain\>-502 |  A service account that is used by the Key Distribution Center (KDC) service.  |
 
