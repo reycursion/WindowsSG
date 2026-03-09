@@ -28,11 +28,11 @@ Lesson 1 Fundamentals
 8. What option is used to tell a scheduled task how often to run? /sc
 9. What happens if I clear my eventlogs and then run the command get-eventlog *? error, error message, an error
 10. True or False. net commands can be used in CLI and POSH? True
-11.
-12.
-13.
-14.
-15.
+11. Create a local user named Sam with a password of Password1! in the CLI. 
+12. Clear the event logs for your applications. Then try to grab all application event logs. What is the error message that is returned? No matches found
+13. Create a scheduled task named Potato that runs notepad.exe once at 2200. Show instructor for credit. Instructor Flag: Potato
+14. What command would I use to show specific examples of how to create a scheduled task? schtasks /create /?
+15. What is the cmdlet to create a new local group? new-localgroup
 
 Lesson 2 Based Networks
 1.
