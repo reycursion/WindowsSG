@@ -11,8 +11,8 @@ Day 0
 8. True or False? Error messages sometimes tell us what is wrong and how to fix it? True
 9. Cmdlets in PowerShell follow what naming convention? verb-noun, noun-verb, object-string, string-object
 10. How can I edit the contents of a file in CLI? notepad, cd, chdir, move 
-11.
-12.
+11. What is the option for the reg command that queries for specific registy key values? Hint: use the help command. /v
+12. You created a file called examplefile.txt. How would you edit the file using notepad from the CLI?
 13.
 14.
 15.
