@@ -47,7 +47,7 @@ Some example commands we can use are
 
 ### sc 
 - `sc query` | To show all running services
-- `sc query type= service state=inactive \| to see all stopped services`
+- `sc query type= service state=inactive /| to see all stopped services`
 - `sc start`| To start a service
 - `sc-stop` | To stop a service
 
