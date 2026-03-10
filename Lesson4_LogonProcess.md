@@ -45,7 +45,7 @@ Some example commands we can use are
 > there is not inate net command to show stopped services
 - `net stop` | To stop a service
 
-###sc 
+### sc 
 - `sc query` | To show all running services
 - `sc query type= service state=inactive \| to see all stopped services`
 - `sc start`| To start a service
