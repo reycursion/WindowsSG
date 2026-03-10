@@ -1,8 +1,8 @@
 ## Table of Contents 
 1. services
-2. c
+2. 
 
-### 1. services
+### 1. Windows Services
 
 Windows Services are specialized applications designed to run in the background of a Windows operating system, executing long-running tasks that do not require direct user interaction. Unlike regular applications that typically run in the foreground with a graphical user interface (GUI), Windows services operate invisibly, allowing the system to perform essential functions while the user is working or even when no user is logged in.
 
