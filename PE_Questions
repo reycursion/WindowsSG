@@ -93,14 +93,14 @@ Lesson 5 Networking Protocols
 5. True or False. "net use" will show you all of the mapped network drives. True
 6. Which command displays all active connections and listening ports, port numbers, and PIDs? netstat -ano
 7. What GUI did the student guide ask you to open? Control Panel
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+8. Which part of the GUI from the Student Guide has information regarding Network Discovery? Network and Sharing Center
+9. True or False. netstat and nbtstat are used for diagnostics? True
+10. Run the netstat command. Which of the following is not an option property category that populates? Proto, Foreign Address, Local Address, **Status**
+11. Now run "netstat -ano". What new category appears? PID
+12. After running the netstat command which of the following is not listening? 135, 445, **21**, 3389
+13. Run the command to see shared drives. What share does not exist? C$, ADMIN$, **Z$**, IPC$
+14. What option can you use with nbtstat to purge and reoad the remote cache name table? -R, R
+15. What application/GUI actually opened when you tried to get to the Network Discovery? Settings
 
 Lesson 6 Active Directory
 1.
