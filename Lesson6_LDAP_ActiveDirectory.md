@@ -27,7 +27,7 @@ Two Types of Names in LDAP:
   
 * LDAP Session Connection
   *   Session Connection – User connects to the server via an LDAP port
-  *     *   Port 389: Unencrypted LDAP
+    *   Port 389: Unencrypted LDAP
   *     *   Port 636: Encrypted LDAP (SSL/TLS)
   *     *   (Custom ports can be configured)
   *   Request – User submits a query (e.g., email lookup) to the server
