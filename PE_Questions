@@ -52,21 +52,21 @@ Lesson 2 Based Networks
 15. What do all SIDs start with? S
 
 Lesson 3 Security Policy & Registry
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+1. What is the path to the folder the Student Guide asked you to navigate to in the registry? Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+2. What is the type for the VMware file found in the path the Student Guise asked you to navigate to in the registry? reg_sz
+3. What is the reg command to create a new registry key? reg add
+4. What powershell cmdlet is used to delete a registry key? remove-item
+5. What did the Student Guide compare the Registry to? grocery store, store
+6. What type of files are found in the registry? configuration files, configuration
+7. Which of the following is not a subkey of HKCU? AppEvents, Software, Network, **Drivers**
+8. True or False? You are not able to create new registry keys? False
+9. What is the parent folder to the Audit Policy folder? Local Policies
+10. What is the link for more more information about audit policy configuration when looking at the privilege use audit policy? https://go.microsoft.com/fwlink/?LinkId=140969
+11. What folder does the Windows Settings in Computer Configuration have that the Windows Settings in User Configuration not have? Named Resolution Policy
+12. True or False. You can add new group policies in gpedit.msc? False
+13. What is the GUI that is used in AD to view and edit group policies? Group Policy Management 
+14. What domain is shown inside of the group policy editor in AD? army.warriors
+15. True or False. Group Policy Management only exists on our AD boxes? True
 
 Lesson 4 Logon Process
 1.
