@@ -28,25 +28,14 @@ NetBIOS communication can be monitored and troubleshooted using several tools, w
 
 ### 3. net commands extened version
 
-Common Net.exe Commands
+#### Common Net.exe Commands
 Here’s a breakdown of some essential commands available through Net.exe and their functions:
 
-1. net /?
-Usage: Displays the help page for the Net.exe command, listing all available commands and their syntax.
-Example:
-net /?
-This command will provide an overview of the net command options, including descriptions of available commands and their functions.
-2. net user
-Usage: Manages user accounts on the local machine or a domain. Administrators can add, delete, modify, or display user account information.
-Examples:
-Add a new user:
-net user username password /add
-Example:
-net user JohnDoe P@ssw0rd /add (Creates a new user "JohnDoe" with password "P@ssw0rd")
-Delete a user:
-net user username /delete
-Example:
-net user JohnDoe /delete (Removes the user "JohnDoe")
+|Command               |          Description                | Other Examples
+|:------------------------------------------|:---------------------------------|:----------------------------|
+|`net /?`   |  Displays the help page for the Net.exe command, listing all available commands and their syntax.  |   |
+|`net user`  | Manages user accounts on the local machine or a domain. Administrators can add, delete, modify, or display user account information. | Add a new user: net user username password /add  net user JohnDoe P@ssw0rd /add (Creates a new user "JohnDoe" with password "P@ssw0rd") |
+|   |    |   Delete a user: net user username /delete  net user JohnDoe /delete (Removes the user "JohnDoe") |
 Display all users:
 net user
 Example:
