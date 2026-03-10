@@ -59,7 +59,7 @@ Lets focus on a sepcific service to manipulate.
 We will use the service "XboxNetApiSvc". To gather information on this specific service I can do: 
 get-service XboxNetApiSvc
 
-From here I can pipe and use `select` or `select-object` to see specifically, the name, startup type, and status:
+From here I can pipe and use `select` or `select-object` to see specifically, the name, startup type, and status properties:
 get-service XboxNetApiSvc | select name, StartType, status
 
 The current startup type for this service is Manual and the status is Stopped. Let's change that.
