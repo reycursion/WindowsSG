@@ -37,9 +37,7 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 |`net user`  | Manages user accounts on the local machine or a domain. Administrators can add, delete, modify, or display user account information. | <ul><li>Add a new user: `net user JohnDoe P@ssw0rd /add` (Creates a new user "JohnDoe" with password "P@ssw0rd")</li><li>Delete a user: `net user JohnDoe /delete` (Removes the user "JohnDoe")</li><li>Display all users: `net user` (Lists all user accounts on the machine)</li></ul>  |
 |`net localgroup` | Manages local groups and their members. Allows adding or removing users from groups and viewing group membership.  | Add a user to a group: `net localgroup groupname username /add` `net localgroup administrators JohnDoe /add` (Adds "JohnDoe" to the "Administrators" group)  |
 |`net localgroup` |   |  Remove a user from a group: `net localgroup groupname username /delete` `net localgroup administrators JohnDoe /delete` (Removes "JohnDoe" from the "Administrators" group) |
-|`net share` | Manages shared network resources such as folders, printers, and devices. Displays shared resources or configures new shares. |Create a shared folder: `net share sharename=path` `net share Documents=C:\Users\JohnDoe\Documents` (Shares the "Documents" folder) |
-|`net share` |   | List all shared resources: `net share` |
-|`net share` |   | Remove a shared folder: `net share sharename /delete`  `net share Documents /delete` (Removes the shared "Documents" folder) |
+|`net share` | Manages shared network resources such as folders, printers, and devices. Displays shared resources or configures new shares. |<ul><li>Create a shared folder: `net share Documents=C:\Users\JohnDoe\Documents` (Shares the "Documents" folder)</li><li>List all shared resources: `net share`</li><li>Remove a shared folder: `net share Documents /delete` (Removes the shared "Documents" folder)</li></ul> |
 5. net start / net stop
 Usage: Starts or stops services on the local machine. This is useful for managing background services like networking, file sharing, or system processes.
 Examples:
