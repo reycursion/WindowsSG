@@ -19,7 +19,7 @@ Windows Services are specialized applications designed to run in the background 
 * Launching PowerShell or CLI
   * Start menu’s Run dialog: Open the Run window (by pressing Win + R), type powershell or cmd, and press Enter.
   * Or you could start typing "PowerShell" or "cmd" in the search bar and it will appear.
-> Tip: It is best practice to open your PowerShell GUI as administrator because some commands will not run without escalated privileges.
+> Tip: It is best practice to open your CLI or PowerShell as administrator because some commands will not run without escalated privileges.
 
 ### Service Management Console Overview
 Once the Services window is open, you’ll see a list of all services running on the system. This window typically displays the following information for each service: 
