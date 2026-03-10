@@ -39,15 +39,7 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 |`net share` | Manages shared network resources such as folders, printers, and devices. Displays shared resources or configures new shares. |<ul><li>Create a shared folder: `net share Documents=C:\Users\JohnDoe\Documents` (Shares the "Documents" folder)</li><li>List all shared resources: `net share`</li><li>Remove a shared folder: `net share Documents /delete` (Removes the shared "Documents" folder)</li></ul> |
 |`net start` | Starts services on the local machine. This is useful for managing background services like networking, file sharing, or system processes.| `net start spooler` (Starts the Print Spooler service)  |
 |`net stop` |  Stops services on the local machine. This is useful for managing background services like networking, file sharing, or system processes. | `net stop spooler` (Stops the Print Spooler service)  |
-|`net use`  | Connects to or disconnects from a shared resource on the network. It can also display information about currently mapped network drives and connections. | `net use Z: \\Server01\Documents` (Maps the shared folder "Documents" on "Server01" to the Z: drive) |
-Disconnect a network drive:
-net use Z: /delete
-Example:
-net use Z: /delete (Disconnects the Z: network drive)
-Display all mapped network drives:
-net use
-Example:
-net use (Lists all currently mapped network drives and connections)
+|`net use`  | Connects to or disconnects from a shared resource on the network. It can also display information about currently mapped network drives and connections. |<ul><li>`net use Z: \\Server01\Documents` (Maps the shared folder "Documents" on "Server01" to the Z: drive) </li><li>Disconnect a network drive: `net use Z: /delete` (Disconnects the Z: network drive) </li><li>Display all mapped network drives: `net use` (Lists all currently mapped network drives and connections)</li></ul> |
 7. net session
 Usage: Displays information about the sessions that are currently open on the machine. This can be useful for monitoring active connections and troubleshooting network issues.
 Examples:
