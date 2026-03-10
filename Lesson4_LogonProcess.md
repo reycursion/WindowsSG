@@ -8,10 +8,10 @@
 
 Windows Services are specialized applications designed to run in the background of a Windows operating system, executing long-running tasks that do not require direct user interaction. Unlike regular applications that typically run in the foreground with a graphical user interface (GUI), Windows services operate invisibly, allowing the system to perform essential functions while the user is working or even when no user is logged in.
 
-* The Service Control Manager (SCM) is the central management service for all Windows services.
-* Service Control Programs (SCPs) are the tools used to interact with and manage services on a Windows system. These can include graphical user interfaces (GUIs), command-line tools, or PowerShell scripts.
-  * The most common GUI SCP is services.msc
-  * The most common scripting SCP is PowerShell or CLI
+* The **Service Control Manager (SCM)** is the central management service for all Windows services.
+* **Service Control Programs (SCPs)** are the tools used to interact with and manage services on a Windows system. These can include graphical user interfaces (GUIs), command-line tools, or PowerShell scripts.
+  * The most common GUI SCP is **services.msc**
+  * The most common scripting SCP is **PowerShell or CLI**
 * Launching the Services Tool
   * Open the Start Menu: Click on the Start button or press Win + S.
   * Search for Services: Type “services” into the search box.
@@ -35,7 +35,7 @@ Once the Services window is open, you’ll see a list of all services running on
 
 Inside this GUI you can start services, stop them, change the startup type, see information about the service, etc. The General page is where you will find a lot of necessary information. Use this page to answer some of your PE's.
 
-CLI uses the sc.exe suite or net.exe suite 
+### CLI uses the sc.exe suite or net.exe suite 
 
 Some example commands we can use are 
 
@@ -46,7 +46,7 @@ Some example commands we can use are
 
 > Note: If using sc in PowerShell you must use sc.exe.
 
-PowerShell has many ways to manipulate the services as well.
+### PowerShell has many ways to manipulate the services as well.
 
 First, to see the services, type `get-service` 
 This will show you the service name, display name, and status 
