@@ -42,25 +42,9 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 |`net use`  | Connects to or disconnects from a shared resource on the network. It can also display information about currently mapped network drives and connections. |<ul><li>`net use Z: \\Server01\Documents` (Maps the shared folder "Documents" on "Server01" to the Z: drive) </li><li>Disconnect a network drive: `net use Z: /delete` (Disconnects the Z: network drive) </li><li>Display all mapped network drives: `net use` (Lists all currently mapped network drives and connections)</li></ul> |
 |`net session` | Displays information about the sessions that are currently open on the machine. This can be useful for monitoring active connections and troubleshooting network issues. | View active sessions: `net session` (Lists all active network sessions on the local machine) |
 |`net time` | Synchronizes the system time with a network time server, ensuring that the machine's clock is accurate and synchronized with a trusted source.  | Synchronize time with a time server: `net time \\time.windows.com /set` (Synchronizes the local computer's time with "time.windows.com")
-9. net file
-Usage: Manages open files on the network, including displaying a list of files currently being accessed and the ability to close them.
-Examples:
-View open files:
-net file
-Example:
-net file (Lists all open files on the local machine or server)
-Close an open file:
-net file fileID /close
-Example:
-net file 123 /close (Closes the file with ID 123)
-10. net share
-Usage: Manages shared resources (like folders or printers) on a Windows system. You can use it to create, display, or manage shares, such as shared folders or drives, on the computer.
-Syntax:
-net share — Displays all shared resources on the computer.
-net share [share_name] — Displays information about a specific shared resource.
-net share [share_name]=[folder_path] — Shares a folder on the network.
-net share [share_name] /delete — Deletes a network share.
-11. netstat
+|`net file` | Manages open files on the network, including displaying a list of files currently being accessed and the ability to close them. | View open files: <ul><li>`net file` (Lists all open files on the local machine or server) </li><li>Close an open file: `net file 123 /close` (Closes the file with ID 123)</li></ul> |
+
+netstat
 Usage: used for network diagnostics and troubleshooting. It provides information about active network connections, open ports, and listening services on the system. It's a useful tool for analyzing network traffic and detecting any unusual activity.
 Analyze network traffic for potential issues.
 Syntax:
