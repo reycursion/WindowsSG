@@ -49,11 +49,15 @@ Usage: used for network diagnostics and troubleshooting. It provides information
 Analyze network traffic for potential issues.
 
 #### Syntax:
-* netstat — Displays active connections, ports, and other network statistics.
-* netstat -a — Shows all active connections and listening ports.
-* netstat -n — Displays network addresses in numeric form (IP address and port number).
-* netstat -o — Displays active connections and the process ID (PID) using the connection.
-* netstat -b — Displays the executable involved in creating each connection or listening port.
+* `netstat` — Displays active connections, ports, and other network statistics.
+* `netstat -a` — Shows all active connections and listening ports.
+* `netstat -n` — Displays network addresses in numeric form (IP address and port number).
+* `netstat -o` — Displays active connections and the process ID (PID) using the connection.
+* `netstat -b` — Displays the executable involved in creating each connection or listening port.
 
+>Note: Options can be combined. Example: `netstat -ano`
 
 ### 4. Control Panel
+
+
+
