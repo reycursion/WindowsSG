@@ -1,6 +1,8 @@
 ## Table of Contents 
 1. services
-2. 
+2. services.msc
+3. CLI commands
+4. PowerShell cmdlets
 
 ### 1. Windows Services
 
@@ -33,8 +35,16 @@ Once the Services window is open, you’ll see a list of all services running on
 
 Inside this GUI you can start services, stop them, change the startup type, see information about the service, etc. The General page is where you will find a lot of necessary information. Use this page to answer some of your PE's.
 
-CLI uses the sc.exe suite
+CLI uses the sc.exe suite or net.exe suite 
 
+Some example commands we can use are 
+
+`net-start`
+`net-stop` 
+`sc-start`
+`sc-stop`
+
+> Note: If using sc in PowerShell you must use sc.exe.
 
 PowerShell has many ways to manipulate the services as well.
 
