@@ -41,8 +41,8 @@ Some example commands we can use are
 
 ### net
 - `net start` | To start a service
-> this command used alone can show all running services
-> there is not inate net command to show stopped services
+> - this command used alone can show all running services
+> - there is no innate net command to show stopped services
 - `net stop` | To stop a service
 
 ### sc 
