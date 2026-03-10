@@ -39,10 +39,17 @@ Inside this GUI you can start services, stop them, change the startup type, see 
 
 Some example commands we can use are 
 
-- `net-start` 
-- `net-stop` 
-- `sc-start`
-- `sc-stop`
+### net
+- `net start` | To start a service
+> this command used alone can show all running services
+> there is not inate net command to show stopped services
+- `net stop` | To stop a service
+
+###sc  
+- `sc query` | To show all running services
+- `sc query type= service state=inactive \| to see all stopped services`
+- `sc start`| To start a service
+- `sc-stop` | To stop a service
 
 > Note: If using sc in PowerShell you must use sc.exe.
 
