@@ -37,24 +37,9 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 |`net user`  | Manages user accounts on the local machine or a domain. Administrators can add, delete, modify, or display user account information. | <ul><li>Add a new user: `net user JohnDoe P@ssw0rd /add` (Creates a new user "JohnDoe" with password "P@ssw0rd")</li><li>Delete a user: `net user JohnDoe /delete` (Removes the user "JohnDoe")</li><li>Display all users: `net user` (Lists all user accounts on the machine)</li></ul>  |
 |`net localgroup` | Manages local groups and their members. Allows adding or removing users from groups and viewing group membership.  |  <ul><li>Add a user to a group: `net localgroup administrators JohnDoe /add` (Adds "JohnDoe" to the "Administrators" group)</li><li>Remove a user from a group: `net localgroup administrators JohnDoe /delete` (Removes "JohnDoe" from the "Administrators" group)</li></ul> |
 |`net share` | Manages shared network resources such as folders, printers, and devices. Displays shared resources or configures new shares. |<ul><li>Create a shared folder: `net share Documents=C:\Users\JohnDoe\Documents` (Shares the "Documents" folder)</li><li>List all shared resources: `net share`</li><li>Remove a shared folder: `net share Documents /delete` (Removes the shared "Documents" folder)</li></ul> |
-5. net start / net stop
-Usage: Starts or stops services on the local machine. This is useful for managing background services like networking, file sharing, or system processes.
-Examples:
-Start a service:
-net start servicename
-Example:
-net start spooler (Starts the Print Spooler service)
-Stop a service:
-net stop servicename
-Example:
-net stop spooler (Stops the Print Spooler service)
-6. net use
-Usage: Connects to or disconnects from a shared resource on the network. It can also display information about currently mapped network drives and connections.
-Examples:
-Map a network drive:
-net use Z: \\servername\sharename
-Example:
-net use Z: \\Server01\Documents (Maps the shared folder "Documents" on "Server01" to the Z: drive)
+|`net start` | Starts services on the local machine. This is useful for managing background services like networking, file sharing, or system processes.| `net start spooler` (Starts the Print Spooler service)  |
+|`net stop` |  Stops services on the local machine. This is useful for managing background services like networking, file sharing, or system processes. | `net stop spooler` (Stops the Print Spooler service)  |
+|`net use`  | Connects to or disconnects from a shared resource on the network. It can also display information about currently mapped network drives and connections. | `net use Z: \\Server01\Documents` (Maps the shared folder "Documents" on "Server01" to the Z: drive) |
 Disconnect a network drive:
 net use Z: /delete
 Example:
