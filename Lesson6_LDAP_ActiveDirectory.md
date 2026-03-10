@@ -65,28 +65,38 @@ There are commands used to navigate/edit objects in Active Directory. Note these
 
 CLI Directory Service Commands
 
-Dsadd – Adds objects to the directory
-Dsquery – Queries Active Directory based on criteria
-Dsmod – Modifies existing directory objects
-Dsmove – Moves or renames objects in the directory
-LDP – Performs LDAP operations like bind, search, modify, and delete
+|Command               |          Description                |
+|:------------------------------------------|:-----------------------------------------------------------------------------|
+|`Dsadd` |  Adds objects to the directory|
+|`Dsquery` | Queries Active Directory based on criteria|
+|`Dsmod` | Modifies existing directory objects|
+|`Dsmove` | Moves or renames objects in the directory|
+|`LDP` | Performs LDAP operations like bind, search, modify, and delete|
+
 Network Commands
-Net computer – Adds or removes a computer from a domain
-Net group – Manages global groups in a domain
-Net user – Adds, modifies, or displays user accounts
-Pro Tip
-Use help or / ? to view command syntax and options efficiently.
+
+|Command               |          Description                |
+|:------------------------------------------|:-----------------------------------------------------------------------------|
+|`Net computer` | Adds or removes a computer from a domain|
+|`Net group` | Manages global groups in a domain|
+`Net user` | Adds, modifies, or displays user accounts|
+
 
 Active Directory PowerShell User & Group Management Commands:
 
-Add-ADGroupMember – Adds members to an AD group
-Enable/Disable-ADAccount – Enables or disables an AD account
-Get-ADUser – Retrieves one or more AD users
-Get-ADGroup – Retrieves one or more AD groups
-Get-ADGroupMember – Retrieves members of an AD group
+
+|Command               |          Description                |
+|:------------------------------------------|:-----------------------------------------------------------------------------|
+|`Add-ADGroupMember | Adds members to an AD group|
+|`Enable/Disable-ADAccount | Enables or disables an AD account|
+|`Get-ADUser | Retrieves one or more AD users|
+|`Get-ADGroup | Retrieves one or more AD groups|
+|`Get-ADGroupMember | Retrieves members of an AD group|
+
 Computer & Domain Management
-Get-ADComputer – Retrieves one or more AD computers
-Get-ADDomain – Retrieves AD domain details
-Get-ADDomainController – Retrieves AD domain controllers
-Get-ADForest – Retrieves the AD forest
-Get-ADOrganizationalUnit – Retrieves one or more AD OUs
+
+|`Get-ADComputer | Retrieves one or more AD computers|
+|`Get-ADDomain | Retrieves AD domain details|
+|`Get-ADDomainController | Retrieves AD domain controllers|
+|`Get-ADForest | Retrieves the AD forest|
+|`Get-ADOrganizationalUnit| Retrieves one or more AD OUs|
