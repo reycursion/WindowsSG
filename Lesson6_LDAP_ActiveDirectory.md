@@ -10,6 +10,7 @@
 LDAP Ports
 * **Port 389**: This is the default port for non-secure LDAP communication, typically used for unencrypted LDAP traffic.
 * **Port 636**: This port is used for Secure LDAP (LDAPS), which encrypts traffic using SSL/TLS, providing an additional layer of security when transmitting sensitive information, such as passwords.
+
 The Naming Model explains how entries are organized and identified within the LDAP directory. Entries are arranged in a hierarchical, tree-like structure known as the **Directory Information Tree (DIT)**. This tree allows for logical grouping and identification of objects.
 
 Each entry in the DIT is uniquely identified by a Distinguished Name (DN), which is a string that uniquely identifies an object within the directory.
