@@ -10,7 +10,7 @@ PowerShell can be opened the same way either through **(pressing Win + R)**, typ
 
 Or you could start **typing "PowerShell"** in the **search bar** and it will appear.
 
-> Tip: It is best practice to open your PowerShell GUI as administrator because some commands will not run without escalated privileges.
+> Tip: It is best practice to open your PowerShell as administrator because some commands will not run without escalated privileges.
 
 ## 1. Help Commands
 Help Commands are very "help"ful (lol)
