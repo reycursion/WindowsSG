@@ -17,13 +17,13 @@ Each entry in the DIT is uniquely identified by a Distinguished Name (DN), which
 Two Types of Names in LDAP:
 
 * Distinguished Name (DN)
- * Full path of an object within the LDAP directory.
- * Includes Relative Distinguished Name (RDN) + Directory Location.
- * Example: CN=Peter Parker, OU=S6, DC=army, DC=com
+  *   Full path of an object within the LDAP directory.
+  *   Includes Relative Distinguished Name (RDN) + Directory Location.
+  *   Example: CN=Peter Parker, OU=S6, DC=army, DC=com
 * Relative Distinguished Name (RDN)
- *  Unique identifier at each directory level.
- *  Does not include full directory structure.
- *  Example: OU=S6
+  *   Unique identifier at each directory level.
+  *   Does not include full directory structure.
+  *   Example: OU=S6
  
 
 ### 2. Active Directory
