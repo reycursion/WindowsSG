@@ -65,7 +65,7 @@ Once open, you can select "category" dropsown and then "small icons". This way y
 #### **Network and Sharing Center**
 * The Network and Sharing Center is the centralized hub in Windows for managing all network-related settings and configurations. It provides a unified interface where users can view and modify network connections, enable or disable sharing features, and troubleshoot network problems.
 
-Inside the **Network and Sharing Center** you can select **File and Printer Sharing** and **Network Discovery**
+Inside the **Network and Sharing Center** you can select **File and Printer Sharing** and **Network Discovery** by clicking "Change advanced sharing settings".
 * File and Printer Sharing in Windows enables seamless sharing of files, folders, and printers between computers on the same network.
   *   File Sharing: Users can share folders or individual files, allowing others on the network to read, write, or modify them, based on the set permissions.
   *   Printer Sharing: A printer connected to one computer can be shared with other users on the network, eliminating the need for each user to have a dedicated printer.
