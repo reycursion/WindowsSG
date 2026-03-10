@@ -44,15 +44,15 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 |`net time` | Synchronizes the system time with a network time server, ensuring that the machine's clock is accurate and synchronized with a trusted source.  | Synchronize time with a time server: `net time \\time.windows.com /set` (Synchronizes the local computer's time with "time.windows.com")
 |`net file` | Manages open files on the network, including displaying a list of files currently being accessed and the ability to close them. | <ul><li>View open files: `net file` (Lists all open files on the local machine or server) </li><li>Close an open file: `net file 123 /close` (Closes the file with ID 123)</li></ul> |
 
-netstat
+### netstat
 Usage: used for network diagnostics and troubleshooting. It provides information about active network connections, open ports, and listening services on the system. It's a useful tool for analyzing network traffic and detecting any unusual activity.
 Analyze network traffic for potential issues.
-Syntax:
-netstat — Displays active connections, ports, and other network statistics.
-netstat -a — Shows all active connections and listening ports.
-netstat -n — Displays network addresses in numeric form (IP address and port number).
-netstat -o — Displays active connections and the process ID (PID) using the connection.
-netstat -b — Displays the executable involved in creating each connection or listening port.
+####Syntax:
+* netstat — Displays active connections, ports, and other network statistics.
+* netstat -a — Shows all active connections and listening ports.
+* netstat -n — Displays network addresses in numeric form (IP address and port number).
+* netstat -o — Displays active connections and the process ID (PID) using the connection.
+* netstat -b — Displays the executable involved in creating each connection or listening port.
 
 
 ### 4. Control Panel
