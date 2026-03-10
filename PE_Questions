@@ -86,13 +86,13 @@ Lesson 4 Logon Process
 15. Services run in the _______ ? background
  
 Lesson 5 Networking Protocols
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1. What is NetBIOS? API, Protocol, Application, Share
+2. True or False. nbtstat is used to edit NetBIOS? False
+3. Which option added onto nbtstat is used for NetBIOS sessions and session statuses? -S, S
+4. What command would you use to remove a shared folder named "Documents"? net share Documents /delete
+5. True or False. "net use" will show you all of the mapped network drives. True
+6. Which command displays all active connections and listening ports, port numbers, and PIDs? netstat -ano
+7. What GUI did the student guide ask you to open? Control Panel
 8.
 9.
 10.
