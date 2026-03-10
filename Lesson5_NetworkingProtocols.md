@@ -34,9 +34,7 @@ Here’s a breakdown of some essential commands available through Net.exe and th
 |Command               |          Description                | Other Examples
 |:------------------------------------------|:---------------------------------|:----------------------------|
 |`net /?`   |  Displays the help page for the Net.exe command, listing all available commands and their syntax.  |   |
-|`net user`  | Manages user accounts on the local machine or a domain. Administrators can add, delete, modify, or display user account information. | Add a new user: `net user username password /add`  `net user JohnDoe P@ssw0rd /add` (Creates a new user "JohnDoe" with password "P@ssw0rd") 
-Delete a user: `net user username /delete  net user JohnDoe /delete` (Removes the user "JohnDoe") |
-Display all users: ` net user` (Lists all user accounts on the machine)  |
+|`net user`  | Manages user accounts on the local machine or a domain. Administrators can add, delete, modify, or display user account information. | Add a new user: `net user username password /add`  `net user JohnDoe P@ssw0rd /add` (Creates a new user "JohnDoe" with password "P@ssw0rd") Delete a user: `net user username /delete  net user JohnDoe /delete` (Removes the user "JohnDoe") Display all users: ` net user` (Lists all user accounts on the machine)  |
 |`net localgroup` | Manages local groups and their members. Allows adding or removing users from groups and viewing group membership.  | Add a user to a group: `net localgroup groupname username /add` `net localgroup administrators JohnDoe /add` (Adds "JohnDoe" to the "Administrators" group)  |
 |`net localgroup` |   |  Remove a user from a group: `net localgroup groupname username /delete` `net localgroup administrators JohnDoe /delete` (Removes "JohnDoe" from the "Administrators" group) |
 |`net share` | Manages shared network resources such as folders, printers, and devices. Displays shared resources or configures new shares. |Create a shared folder: `net share sharename=path` `net share Documents=C:\Users\JohnDoe\Documents` (Shares the "Documents" folder) |
