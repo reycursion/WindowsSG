@@ -69,21 +69,21 @@ Lesson 3 Security Policy & Registry
 15. True or False. Group Policy Management only exists on our AD boxes? True
 
 Lesson 4 Logon Process
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+1. True or False. We can start services in the GUI, CLI, and PowerShell? True
+2. The page in the GUI with the most information that we need is what? General, General tab, General page
+3. What is the service name for the BitLocker Drive Encryption service? BDESVC
+4. What is the path to executable for the Print Spooler service? C:\Windows\System32\spoolsv.exe
+5. Change the Xbox Live Auth Manager to Automatic startup and Start the service. GUI or CLI/POSH. Show Instructor for flag. Instructor flag: Cornbread
+6. What service account is using the print spooler? Local System
+7. If I wanted to get specific information about the "XboxNetApiSvc" service what cmdlet would I use? get-service
+8. What cmdlet would I pipe my get-service into to select specific properties of my service? select-object
+9. If using sc in powershell what must I add to the end of it? .exe
+10. When using the get-service command, what are the default properties that are shown? structure answer in the order they are on the screen: 1,2,3 (no spaces) status,name,displayname 
+11. What is the PowerShell cmdlet to change properties of a service? set-service
+12. True or False. net start, sc start, and start-service all do the same action? True
+13. What sc option must you use to see stopped service? state
+14. You used this symbol in the example from the student guide "|" but what is it actually called? pipe
+15. Services run in the _______ ? background
 
 Lesson 5 Networking Protocols
 1.
