@@ -3,7 +3,7 @@
 2. Active Directory
 3. Commands CLI & PowerShell
 
-### 1. LDAP
+### 1. LDAP 
 
 **LDAP (Lightweight Directory Access Protocol)** is a software protocol designed for accessing and managing directory services over a network.
 
