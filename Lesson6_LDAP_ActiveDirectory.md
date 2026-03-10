@@ -87,16 +87,16 @@ Active Directory PowerShell User & Group Management Commands:
 
 |Command               |          Description                |
 |:------------------------------------------|:-----------------------------------------------------------------------------|
-|`Add-ADGroupMember | Adds members to an AD group|
-|`Enable/Disable-ADAccount | Enables or disables an AD account|
-|`Get-ADUser | Retrieves one or more AD users|
-|`Get-ADGroup | Retrieves one or more AD groups|
-|`Get-ADGroupMember | Retrieves members of an AD group|
+|`Add-ADGroupMember` | Adds members to an AD group|
+|`Enable/Disable-ADAccount` | Enables or disables an AD account|
+|`Get-ADUser` | Retrieves one or more AD users|
+|`Get-ADGroup` | Retrieves one or more AD groups|
+|`Get-ADGroupMember` | Retrieves members of an AD group|
 
 Computer & Domain Management
 
-|`Get-ADComputer | Retrieves one or more AD computers|
-|`Get-ADDomain | Retrieves AD domain details|
-|`Get-ADDomainController | Retrieves AD domain controllers|
-|`Get-ADForest | Retrieves the AD forest|
-|`Get-ADOrganizationalUnit| Retrieves one or more AD OUs|
+|`Get-ADComputer` | Retrieves one or more AD computers|
+|`Get-ADDomain` | Retrieves AD domain details|
+|`Get-ADDomainController` | Retrieves AD domain controllers|
+|`Get-ADForest` | Retrieves the AD forest|
+|`Get-ADOrganizationalUnit` | Retrieves one or more AD OUs|
