@@ -103,21 +103,21 @@ Lesson 5 Networking Protocols
 15. What application/GUI actually opened when you tried to get to the Network Discovery? Settings
 
 Lesson 6 Active Directory
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+1. When adding a user using the dsadd command what is required to add a user? Distinguished Name, DN
+2. Which ds command is used to query objects? dsquery 
+3. What happens when you just type get-aduser? **It prompts you for a filter**, It pulls the help page for get-aduser, It shows you all the users, It shows you your user information
+4. After using the get-aduser or get-adcomputer command what can I insert in the filter to see all users or all computers? *
+5. What tab in Server Manager can I see the user's DN? Attribute Editor
+6. Which deployment do I need to be in to run the commands in this lesson? AD
+7. True or False. I can create new users in Server Manager and in the CLI. True
+8. Which drop down can I find Active Directory Users and Computers? Tools
+9. What can we type in cmd to open the Server Manager if it is closed? servermanager.exe
+10. True or False. cmd opens as Administrator in the DC. True
+11. When running the get-aduser command which of the following is not a category that populates? SID, Name, ObjectClass, **RelativeName**
+12. Which command performs LDAP operations like bind, search, modify, and delete? LDP
+13. What is the Distinguished Name for cvte? CN=cvte,CN=Users,DC=army,DC=warriors
+14.True or False. I can see only information about the cvte user by using the command get-aduser cvte. True
+15. What are the first 5 characters in the name of the other computer on the system that is not the WIN-OPS? CYSCH
 
 Lesson 7 Baseline
 1.
