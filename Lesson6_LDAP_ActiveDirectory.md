@@ -25,14 +25,14 @@ Two Types of Names in LDAP:
   *   Does not include full directory structure.
   *   Example: OU=S6
   
-* LDAP Session Connection
-  *   Session Connection – User connects to the server via an LDAP port
-    *   Port 389: Unencrypted LDAP
-  *     *   Port 636: Encrypted LDAP (SSL/TLS)
-  *     *   (Custom ports can be configured)
-  *   Request – User submits a query (e.g., email lookup) to the server
-  *   Response – LDAP queries the directory and returns requested information
-  *   Completion – User disconnects from the LDAP port
+ LDAP Session Connection
+ * Session Connection – User connects to the server via an LDAP port
+  *   Port 389: Unencrypted LDAP
+  *   Port 636: Encrypted LDAP (SSL/TLS)
+  *   (Custom ports can be configured)
+* Request – User submits a query (e.g., email lookup) to the server
+* Response – LDAP queries the directory and returns requested information
+* Completion – User disconnects from the LDAP port
 
 ### 2. Active Directory
 
