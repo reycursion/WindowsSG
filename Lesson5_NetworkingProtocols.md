@@ -21,10 +21,10 @@ NetBIOS communication can be monitored and troubleshooted using several tools, w
 
 |Command               |          Description                | Other Examples
 |:------------------------------------------|:---------------------------------|:----------------------------|
-|`nbtstat -n `   |  This command lists the local NetBIOS names registered on the system. It provides details about the names and their associated network addresses, which can help diagnose naming issues or conflicts on the network. |
+|`nbtstat -n `   |  This command lists the local NetBIOS names registered on the system. It provides details about the names and their associated network addresses, which can help diagnose naming issues or conflicts on the network. |        |
 |`nbtstat -a [IP Address]`   | This command queries remote machines for their NetBIOS names and associated network information by providing either the IP address or NetBIOS name. This is useful for identifying devices on the network and checking for connectivity issues with a specific machine. |  `nbtstat -a 192.168.1.10`|
-|`nbtstat -r` |  This command displays the NetBIOS name resolution cache, which shows how the system has resolved names in the past, including entries that are no longer active. |
-|`nbtstat -S`  |  This displays the active NetBIOS sessions (connections) that the local machine is maintaining, along with session statuses, helping to diagnose issues related to active connections between devices.|
+|`nbtstat -r` |  This command displays the NetBIOS name resolution cache, which shows how the system has resolved names in the past, including entries that are no longer active. |      |
+|`nbtstat -S`  |  This displays the active NetBIOS sessions (connections) that the local machine is maintaining, along with session statuses, helping to diagnose issues related to active connections between devices.|      |
 
 ### 3. net commands extened version
 
