@@ -20,21 +20,21 @@ Process Information
 |Get-Process  | Retrieves all running processes in PowerShell |	Get-Process |
 
 Network Information	
-|:------------------------------------------|:------------------------------------|:-----------------------------------------|
 | Command	| Purpose	|   Example Usage  |
+|:------------------------------------------|:------------------------------------|:-----------------------------------------|
 |netstat	Shows active network connections and ports |	netstat -ano |
 |ipconfig	| Displays network configuration information |	ipconfig |
 |Get-NetTCPConnection	| Lists active TCP/IP connections |	Get-NetTCPConnection |
 
 Service Information	
-|:------------------------------------------|:--------------------------------------|:---------------------------------------|
 | Command	| Purpose	|   Example Usage  |
+|:------------------------------------------|:--------------------------------------|:---------------------------------------|
 |sc query	 | Queries the status of services |	sc query |
 |Get-Service	| Lists all installed services in PowerShell |	Get-Service |
 
 File System	
-|:------------------------------------------|:----------------------------------|:-------------------------------------------|
 | Command	| Purpose	|   Example Usage  |
+|:------------------------------------------|:----------------------------------|:-------------------------------------------|
 |dir |	Lists files and directories	 | dir C:\Windows |
 |Get-ChildItem	|Lists files and directories in PowerShell	| Get-ChildItem -Path C:\Windows|
 
