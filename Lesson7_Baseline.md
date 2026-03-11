@@ -60,8 +60,8 @@ Get-Service | Export-Clixml -Path C:\Documents\Baseline01.xml
 
 To compare this file later you can do the same previous actions but save the file with a new name (Baseline02.xml)
 Then you can run the following command:
-### ***HAVING ISSUE W THIS RN***
-Compare-Object -ReferenceObject C:\Users\cvte1\Documents\Baseline01.xml -DifferenceObject C:\Users\cvte1\Documents\Baseline02.xml  
+
+Compare-Object -ReferenceObject $(get-content -path C:\Users\cvte1\Documents\Baseline01.xml) -DifferenceObject $(get-content -path C:\Users\cvte1\Documents\Baseline02.xml)
  <= means the item appeared only in the reference object/document
  => means the item appeared only in the difference object/document
  == means the item is present in both objects/documents
