@@ -120,36 +120,21 @@ Lesson 6 Active Directory
 15. What are the first 5 characters in the name of the other computer on the system that is not the WIN-OPS? CYSCH
 
 Lesson 7 Baseline
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+1. Survey Commands can be used for all of the following except: assess the state of the system, identify running processes, monitor network activity, **remove unused switches**
+2. Run the systeminfo command on your OpStation. Who is the registered owner? cvte1
+3. Run the command to see all of the processes on your OpStation. What is the most common process name? svchost
+4. Get-Childitem is the proper cmdlet for PowerShell but what cmd command does the same task? dir
+5. What is the cmdlet to export information to a csv file? Export-Csv
+6. Which of the following is not a result of Compare-Object? <=, =>, ==, =! 
+7. True or False. There is only one way to make a baseline. False
+8. What scipting language was used to create the baseline file? PowerShell
+9. Which cmdlet did we use to make our baseline file? export-clixml
+10. What two things did we gather from our system for our baseline? services, processes
+11. Which of the following is not a command used for network information? netstat, ipconfig, Get-NetTCPConnection, **dir** 
+12. What command displays the OS Manufacturer? systeminfo
+13. What is your hostname? CVTE-Win11
+14. True or False. CMD and PowerShell can be used to survey a system? True
+15. What is the path we saved the baseline file to? C:\Users\cvte1\Documents\Baseline0.xml
 
-Lesson 8 Persistence
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-
+Lesson 8 Persistence 
+no SG for this lesson
