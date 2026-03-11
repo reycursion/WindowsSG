@@ -73,7 +73,7 @@ example:
 
 $FileHash01 = Get-FileHash -Path "C:\Users\cvte1\Documents\Baseline01.xml"
 #echo $FileHash01
-$ExpectedHash = "2920902688EDC6E96F0F6D1001E45DAC4D7F4AE6FFA6DDEED33D8DD4BFEA5A53"
+$ExpectedHash = "put your hash here"
 
 if ($FileHash01 -eq $ExpectedHash) {
 write-output "The file hashes match" }
