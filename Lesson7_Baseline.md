@@ -10,27 +10,27 @@ Survey commands are commonly used by system administrators, incident responders,
 #### System Information
 | Command	| Purpose	|   Example Usage  |
 |:------------------------------------------|:----------------------------------------|:-------------------------------------|
-|systeminfo | Displays detailed system information	  | systeminfo |
-|hostname |	Shows the computer's hostname  |	hostname |
+|`systeminfo` | Displays detailed system information	  | `systeminfo` |
+|`hostname` |	Shows the computer's hostname  |	`hostname` |
 
 #### Process Information
 | Command	| Purpose	|   Example Usage  |
 |:------------------------------------------|:-----------------------------------------|:------------------------------------|
-|tasklist	| Lists all running processes  |	tasklist |
-|Get-Process  | Retrieves all running processes in PowerShell |	Get-Process |
+|`tasklist`	| Lists all running processes  |	`tasklist` |
+|`Get-Process`  | Retrieves all running processes in PowerShell |	`Get-Process` |
 
 #### Network Information	
 | Command	| Purpose	|   Example Usage  |
 |:------------------------------------------|:------------------------------------|:-----------------------------------------|
-|netstat |	Shows active network connections and ports |	netstat -ano |
-|ipconfig	| Displays network configuration information |	ipconfig |
-|Get-NetTCPConnection	| Lists active TCP/IP connections |	Get-NetTCPConnection |
+|`netstat` |	Shows active network connections and ports |	`netstat -ano` |
+|`ipconfig`	| Displays network configuration information |	`ipconfig` |
+|`Get-NetTCPConnection`	| Lists active TCP/IP connections |	`Get-NetTCPConnection` |
 
 #### Service Information	
 | Command	| Purpose	|   Example Usage  |
 |:------------------------------------------|:--------------------------------------|:---------------------------------------|
-|sc query	 | Queries the status of services |	sc query |
-|Get-Service	| Lists all installed services in PowerShell |	Get-Service |
+|`sc query`	 | Queries the status of services | `sc query` |
+|`Get-Service`	| Lists all installed services in PowerShell |	`Get-Service` |
 
 #### File System	
 | Command	| Purpose	|   Example Usage  |
@@ -46,15 +46,15 @@ Let's try with PowerShell:
 
 A pretty simple way is to just run:
 
-Get-Process | Export-Clixml -Path C:\Documents\Baseline01.xml
+`Get-Process | Export-Clixml -Path C:\Documents\Baseline01.xml`
 
 > This saves the current process to an xml document named Baseline01.xml
 
-Get-Process | Export-Csv -Path C:\Documents\Baseline01.csv
+`Get-Process | Export-Csv -Path C:\Documents\Baseline01.csv`
 
 > This saves the current process to a csv document named Baseline01.csv if you want the file to be formatted like a spreadsheet to open in Libre Calc or Microsoft Excel
 
-Get-Service | Export-Clixml -Path C:\Documents\Baseline01.xml
+`Get-Service | Export-Clixml -Path C:\Documents\Baseline01.xml`
 
 > This will add all of the services on your system to the already existing file named Baseline01.xml
 
@@ -71,7 +71,7 @@ Another way is to hash the files and create an if statement to compare them. You
 
 example:
 
-$FileHash01 = Get-FileHash -Path "C:\Users\cvte1\Documents\Baseline01.xml"
+`$FileHash01 = Get-FileHash -Path "C:\Users\cvte1\Documents\Baseline01.xml"
 #echo $FileHash01
 $ExpectedHash = "put your hash here"
 
@@ -79,6 +79,6 @@ if ($FileHash01 -eq $ExpectedHash) {
 write-output "The file hashes match" }
 else 
 { 
-write-output "The file hashes do not match" }
+write-output "The file hashes do not match" }`
 
 > Note: Might need to run the echo $FileHash01 first to get the input for the $ExpectedHash
