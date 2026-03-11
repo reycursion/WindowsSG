@@ -35,8 +35,8 @@ Survey commands are commonly used by system administrators, incident responders,
 #### File System	
 | Command	| Purpose	|   Example Usage  |
 |:------------------------------------------|:----------------------------------|:-------------------------------------------|
-|dir |	Lists files and directories	 | dir C:\Windows |
-|Get-ChildItem	|Lists files and directories in PowerShell	| Get-ChildItem -Path C:\Windows|
+|`dir` |	Lists files and directories	 | `dir C:\Windows` |
+|`Get-ChildItem`	|Lists files and directories in PowerShell	| `Get-ChildItem -Path C:\Windows`|
 
 ### 2. Creating a Baseline
 
@@ -71,7 +71,7 @@ Another way is to hash the files and create an if statement to compare them. You
 
 example:
 
-`$FileHash01 = Get-FileHash -Path "C:\Users\cvte1\Documents\Baseline01.xml"
+$FileHash01 = Get-FileHash -Path "C:\Users\cvte1\Documents\Baseline01.xml"
 #echo $FileHash01
 $ExpectedHash = "put your hash here"
 
@@ -79,6 +79,6 @@ if ($FileHash01 -eq $ExpectedHash) {
 write-output "The file hashes match" }
 else 
 { 
-write-output "The file hashes do not match" }`
+write-output "The file hashes do not match" }
 
 > Note: Might need to run the echo $FileHash01 first to get the input for the $ExpectedHash
