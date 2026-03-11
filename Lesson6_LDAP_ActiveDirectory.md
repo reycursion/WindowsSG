@@ -102,3 +102,5 @@ Computer & Domain Management
 |`Get-ADDomainController` | Retrieves AD domain controllers|
 |`Get-ADForest` | Retrieves the AD forest|
 |`Get-ADOrganizationalUnit` | Retrieves one or more AD OUs|
+
+> If you use these commands it may prompt you for a filter. If you input "*" it will show you all of them.
