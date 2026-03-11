@@ -39,3 +39,43 @@ Survey commands are commonly used by system administrators, incident responders,
 |Get-ChildItem	|Lists files and directories in PowerShell	| Get-ChildItem -Path C:\Windows|
 
 ### 2. Creating a Baseline
+
+One way to do a baseline is to save a copy of your current configurations to a file > this is your baseline. At a later time you can compare that file to the new current configurations.
+
+Let's try with PowerShell:
+
+A pretty simple way is to just run:
+
+Get-Process | Export-Clixml -Path C:\Documents\Baseline01.xml
+
+> This saves the current process to an xml document named Baseline01.xml
+
+Get-Process | Export-Csv -Path C:\Documents\Baseline01.csv
+
+> This saves the current process to a csv document named Baseline01.csv if you want the file to be formatted like a spreadsheet to open in Libre Calc or Microsoft Excel
+
+Get-Service | Export-Clixml -Path C:\Documents\Baseline01.xml
+
+> This will add all of the services on your system to the already existing file named Baseline01.xml
+
+To compare this file later you can do the same previous actions but save the file with a new name (Baseline02.xml)
+Then you can run the following command:
+### ***HAVING ISSUE W THIS RN***
+Compare-Object -ReferenceObject C:\Users\cvte1\Documents\Baseline01.xml -DifferenceObject C:\Users\cvte1\Documents\Baseline02.xml  
+ <= means the item appeared only in the reference object/document
+ => means the item appeared only in the difference object/document
+ == means the item is present in both objects/documents
+
+Another way is to hash the files and create an if statement to compare them. You will learn more about if statements in the PowerShell module.
+
+example:
+
+$FileHash01 = (Get-FileHash -Path "C:\Documents\Baseline01.xml").Hash
+$ExpectedHash = "Your expected hash"
+
+if ($FileHash01 -eq $ExpectedHash) {
+write-output "The file hashes match" }
+else 
+{ 
+write-output "The file hashes do not match" }
+
